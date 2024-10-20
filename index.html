@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KP-RH Consultoria de RH</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/75bee888f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="images/logo.jpeg" alt="Logo da Empresa" /></div>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#testimonials">Testemunhos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="cta">Entre em Contato</a>
+    </header>
+
+    <section class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h2>Treinamento e Desenvolvimento</h2>
+            <img src="images/T&D.jpg" alt="Treinamento e Desenvolvimento" class="bannerimage" />
+          </div>
+          <div class="swiper-slide">
+            <h2>Recrutamento e Seleção</h2>
+            <img src="images/entrevista.webp" alt="Recrutamento e Seleção" class="bannerimage" />
+          </div>
+          <div class="swiper-slide">
+            <h2>Gestão de Performance</h2>
+            <img src="images/GestaoDesenpenho.jpg" alt="Gestão de Performance" class="bannerimage" />
+          </div>
+        </div>        
+         <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>   
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>A KP-RH é uma consultoria de Recursos Humanos dedicada a ajudar empresas a maximizar o potencial de seus colaboradores. Com uma equipe de especialistas experientes e apaixonados, oferecemos soluções personalizadas que atendem às necessidades específicas de cada cliente.
+        Desde a nossa fundação em 2024, temos trabalhado com organizações de diversos setores, desde startups até grandes corporações, proporcionando uma abordagem estratégica para a gestão de pessoas. Acreditamos que o capital humano é o ativo mais valioso de uma empresa e, por isso, nos comprometemos
+        a desenvolver práticas que promovam um ambiente de trabalho positivo e produtivo.</p>
+    </section>
+
+    <section id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="services-container"></div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testemunhos</h2>
+      <div class="testimonials-container"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <form id="contactForm" class="formconfig">
+        <input type="text" id="name" placeholder="Nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Telefone" />
+        <textarea id="message" placeholder="Mensagem" required></textarea>
+        <button type="submit" class="envform">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook footerIcon"></i> Facebook</a>
+        <a href="https://twitter.com/login"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      </div>
+      <p>Termos de uso | Política de privacidade</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
