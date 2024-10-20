@@ -4,7 +4,7 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 Clone o repositório:
 
 bash
-git clone <URL_DO_REPOSITORIO>
+git clone  https://github.com/LuisFurtado27/Atividade-4.git
 
 Acesse a pasta do projeto:
 
